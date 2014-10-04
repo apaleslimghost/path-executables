@@ -1,0 +1,23 @@
+{
+  "name": "vereda",
+  "version": "1.0.0",
+  "description": "List executables on the system PATH",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarterto/Vereda.git"
+  },
+  "keywords": [
+    "path",
+    "system"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com> (http://blog.153.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/Vereda/issues"
+  },
+  "homepage": "https://github.com/quarterto/Vereda"
+}
