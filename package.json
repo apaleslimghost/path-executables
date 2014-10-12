@@ -1,5 +1,5 @@
 {
-  "name": "vereda",
+  "name": "path-executables",
   "version": "1.0.0",
   "description": "List executables on the system PATH",
   "main": "index.js",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/quarterto/Vereda/issues"
   },
-  "homepage": "https://github.com/quarterto/Vereda"
+  "homepage": "https://github.com/quarterto/Vereda",
+  "dependencies": {
+    "async-flat-map": "^1.0.0"
+  },
+  "devDependencies": {}
 }
