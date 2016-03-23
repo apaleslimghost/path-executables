@@ -15,9 +15,9 @@ node_js:
   - '0.10'
 before_install:
   - npm i -g npm@^2.0.0
-  - npm i es6-promise
 before_script:
   - npm prune
+  - npm i es6-promise
 after_success:
   - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
   - python travis_after_all.py
