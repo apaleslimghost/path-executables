@@ -1,10 +1,10 @@
 {
   "name": "path-executables",
-  "version": "1.0.0",
   "description": "List executables on the system PATH",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@quarterto/chai": "^1.1.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "semantic-release": "^4.3.5"
   }
 }
