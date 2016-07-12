@@ -30,7 +30,7 @@ describe('path executables', function() {
 		}).catch(done);
 	});
 
-	xit('should not contain non-executables', function(done) {
+	it('should not contain non-executables', function(done) {
 		pathExecutables(path.join(fixtures, 'path3')).then(function(exec) {
 			expect(exec).to.contain(path.join(fixtures, 'path3', 'e'));
 			expect(exec).not.to.contain(path.join(fixtures, 'path3', 'f'));
